@@ -90,6 +90,5 @@ On success the script prints the output folder path and a reminder to add it to 
 ## Notes
 
 - The VAE block index order is **reversed** between LDM and diffusers: `up.i` → `up_blocks.(NUM_UP-1-i)`. This is handled automatically.
-- If `LOCAL_VAE` is not set, the VAE from the HF snapshot is used as-is (typically FP32). Setting a local BF16/FP16 VAE is recommended for memory efficiency.
-- The script is intentionally **CPU-only** — no GPU required for conversion.
+- If `LOCAL_VAE` is not set, the VAE from the HF snapshot is used as-is.
 - Tested against `Tongyi-MAI/Z-Image-Turbo` rev as of early 2025.
