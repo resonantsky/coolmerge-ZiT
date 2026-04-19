@@ -10,7 +10,7 @@ init(autoreset=True)
 # =============================================================================
 
 # Path to the source Diffusers pipeline folder (full pipeline directory)
-SOURCE_MODEL    = "E:/SD.Next/models/Diffusers/DivingZImageTurbo"
+SOURCE_MODEL    = "E:/SD.Next/models/Diffusers/"
 
 # Parent folder where the quantized model will be saved
 OUTPUT_DIR      = "E:/SD.Next/models/Diffusers"
