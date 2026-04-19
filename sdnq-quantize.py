@@ -2,6 +2,8 @@ import os, torch
 from colorama import Fore, Style, init
 from diffusers import DiffusionPipeline
 
+# This script is used to bake a quant into a model so that it does not have to be done live.
+
 # Initialize colorama
 init(autoreset=True)
 
