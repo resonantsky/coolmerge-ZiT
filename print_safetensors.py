@@ -4,7 +4,7 @@ from safetensors import safe_open
 
 # --- Configuration ---
 # Your specific file path
-MODEL_PATH = r"E:\SD.Next\models\Diffusers\MoodyRealMix-SDNQ-int8-svd-r32\transformer\diffusion_pytorch_model.safetensors"
+MODEL_PATH = r"path to model.safetensors"
 
 def format_size(num_params):
     """Formats number of parameters into a readable string (M or B)."""
